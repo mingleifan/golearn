@@ -14,8 +14,12 @@ var (
 	x int = 3
 )
 
+var fff = 4
+
 func main() {
 	fmt.Println(math.Pi)
+
+	fmt.Println(fff)
 
 	fmt.Println(add(1, 2))
 	fmt.Println(addIntString(1, "x"))
@@ -26,6 +30,16 @@ func main() {
 
 	bb := 1
 	fmt.Println(bb)
+
+	// := 只能在函数体内使用
+	c := 3.14
+	fmt.Printf("c = %g, type of c = %T\n", c, c)
+
+	var xx, yy, zz = 100, 100, 100
+	fmt.Println(xx, yy, zz)
+
+	xxx, yyy, zzz := 10, 10, 10
+	fmt.Println(xxx, yyy, zzz)
 
 }
 
