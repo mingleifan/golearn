@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("leaning append.....")
+	fmt.Println("leaning slice append.....")
 
 	slice1 := make([]int, 3, 4)
 	fmt.Printf("len = %d, cap = %d, slice = %v\n", len(slice1), cap(slice1), slice1)
@@ -21,7 +21,7 @@ func main() {
 	slice3 = append(slice3, 1)
 	fmt.Printf("len = %d, cap = %d, slice = %v\n", len(slice3), cap(slice3), slice3)
 
-	fmt.Println("leaning substring.....")
+	fmt.Println("leaning slice cut.....")
 
 	s1 := []int{1, 2, 3, 4, 5}
 	//[0, 2] 左闭右开
@@ -39,6 +39,7 @@ func main() {
 	s5 := s1[:2]
 	fmt.Println(s5)
 
+	fmt.Println("leaning slice copy.....")
 	//copy
 	s6 := make([]int, 3)
 	//将s1中的值，依次拷贝到s6中
