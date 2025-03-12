@@ -10,7 +10,7 @@ var (
 )
 
 func main() {
-	person := Person{1, 2, "rango", 26}
+	person := Person{1, 2, "deprecated", 26}
 	fmt.Println(person)
 	fmt.Println(person.Name, person.Age)
 
