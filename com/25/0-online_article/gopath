@@ -1,0 +1,36 @@
+VIDEO: https://www.bilibili.com/video/BV1gf4y1r79E
+在线文章：https://www.yuque.com/aceld/mo95lb/dsk886
+
+Go Web(Web框架):
+    beego: https://github.com/beego
+    gin: https://github.com/gin-gonic/gin
+    echo: https://github.com/labstack/echo
+    Iris: https://github.com/kataras/ilis
+
+Go Micro-Server(微服务框架):
+    go kit: https://gokit.io/
+    Istio: https://istio.io/
+
+Go Container-Orchestration(容器编排):
+    Kubernetes: https://github.com/kubernetes/kubernetes
+    swarm: https://github.com/docker/classicswarm
+
+Go Server-Discover(服务发现):
+    consul: https://github.com/hashicorp/consul
+
+Go Store-Engine(存储引擎):
+    etcd: https://github.com/coreos/etcd    (k/v存储)
+    tidb: https://github.com/pingcap/tidb
+
+Go Static-Station-Construction(静态建站):
+    hugo: https://github.com/gohugoio/hugo
+
+Go Middleware(中间件):
+    nsq: https://github.com/nsqio/nsq   (消息队列)
+    zinx: https://github.com/aceld/zinx   (Tcp长链接框架 轻量级服务区)
+    Leaf: https://github.com/name5566/leaf   (游戏服务器)
+    gRPC: https://github.com/grpc/grpc-go   (RPC框架)
+    codis: https://github.com/CodisLabs/codis   (Redis集群)
+
+Go Crawler—Frame(爬虫框架):
+    go query: https://github.com/PuerkitoBio/goquery
